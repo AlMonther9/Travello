@@ -1,0 +1,179 @@
+/* travel_recommendation.css */
+
+:root {
+    --color-bg: #F0EAD2;
+    --color-nav-bg: #DDE5B6;
+    --color-nav-text: #6C584C;
+    --color-nav-hover: #ADC178;
+    --color-btn-bg: #A98467;
+    --color-btn-text: #F0EAD2;
+    --color-content-bg: rgba(255, 255, 255, 0.8);
+    --color-border: #6C584C;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-bg);
+    color: var(--color-nav-text);
+}
+
+nav {
+    background-color: var(--color-nav-bg);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--color-border);
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+    color: var(--color-nav-text);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: var(--color-nav-text);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: var(--color-nav-hover);
+    color: var(--color-bg);
+}
+
+nav ul li input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+}
+
+nav ul li button {
+    background-color: var(--color-btn-bg);
+    color: var(--color-btn-text);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav ul li button:hover {
+    background-color: var(--color-nav-hover);
+    color: var(--color-bg);
+}
+
+#homeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-btn-text);
+}
+
+#homeSection .intro {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#homeSection h2 {
+    font-size: 48px;
+    margin: 0 0 10px;
+}
+
+#homeSection p {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
+#homeSection button {
+    background-color: var(--color-btn-bg);
+    color: var(--color-btn-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#homeSection button:hover {
+    background-color: var(--color-nav-hover);
+    color: var(--color-bg);
+}
+
+#contactSection,
+#aboutSection {
+    background-color: var(--color-content-bg);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 1px solid var(--color-border);
+}
+
+#contactSection h2,
+#aboutSection h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--color-nav-text);
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--color-nav-text);
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contactForm button {
+    background-color: var(--color-btn-bg);
+    color: var(--color-btn-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#contactForm button:hover {
+    background-color: var(--color-nav-hover);
+    color: var(--color-bg);
+}
+
+#aboutSection ul {
+    list-style: none;
+    padding: 0;
+}
+
+#aboutSection ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: var(--color-nav-text);
+}
